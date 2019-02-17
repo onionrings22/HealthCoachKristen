@@ -26,6 +26,6 @@ include_once("header.php");
         </tr>
     </table>
 </div>
-<img src="img/love-yourself.jpg" height="300" class="bottom-img">
+<img src="img/habits.jpg" height="300" class="bottom-img">
 <?php
 include_once ("footer.html");
