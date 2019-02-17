@@ -2,7 +2,7 @@
     <header>
         <title>HCK - <?php echo $thisPage; ?></title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="hck.ico">
+        <link rel="shortcut icon" href="img/hck.ico">
     </header>
     <body>
         <div id="title-bar">
@@ -12,19 +12,18 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li<?php if ($thisPage=="home") echo " id=\"currentpage\""; ?>>
+                    <li>
                         <a href="index.php">Home</a></li>
-                    <li<?php if ($thisPage=="about") echo " id=\"currentpage\""; ?>>
+                    <li>
                         <a href="about.php">About</a></li>
-                    <li<?php if ($thisPage=="faq") echo " id=\"currentpage\""; ?>>
+                    <li>
                         <a href="faq.php">FAQ</a></li>
-                    <li<?php if ($thisPage=="contact") echo " id=\"currentpage\""; ?>>
+                    <li id="currentpage">
                         <a href="contact.php">Contact Kristen</a></li>
-                    <li<?php if ($thisPage=="goals") echo " id=\"currentpage\""; ?>>
+                    <li>
                         <a href="goals.php">My Goals</a></li>
-                    <li<?php if ($thisPage=="login") echo " id=\"currentpage\""; ?>>
+                    <li>
                         <a href="login.php">Log in/Sign up</a></li>
                 </ul>
-                <span id="spacer">I</span>
             </div>
         </div>
