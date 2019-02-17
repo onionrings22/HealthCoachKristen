@@ -44,7 +44,7 @@
     float: right;
 }
 
-#goals {
+#goals > li {
     text-align: left;
     max-width: 300px;
 }
@@ -57,7 +57,7 @@
 }
 
 #spacer {
-    hidden: true;
+    visibility: hidden;
 }
 
 .img-right {

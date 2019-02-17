@@ -10,7 +10,6 @@
                 <img id="logo" src="img/Snoot.jpg" height="100">
             </div>
             <div id="navigation">
-                <span id="spacer">I'm invisible!</span>
                 <ul>
                     <li<?php if ($thisPage=="home") echo " id=\"currentpage\""; ?>>
                         <a href="index.php">Home</a></li>
@@ -25,5 +24,6 @@
                     <li<?php if ($thisPage=="login") echo " id=\"currentpage\""; ?>>
                         <a href="login.php">Log in/Sign up</a></li>
                 </ul>
+                <span id="spacer">I</span>
             </div>
         </div>
