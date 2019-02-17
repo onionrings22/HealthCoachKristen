@@ -1,9 +1,9 @@
 <html>
-    <header>
+    <head>
         <title>HCK - <?php echo $thisPage; ?></title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="img/hck.ico">
-    </header>
+    </head>
     <body>
         <div id="title-bar">
             <div id="site-title">
@@ -12,18 +12,19 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li>
+                    <li<?php if ($thisPage=="home") echo " id=\"currentpage\""; ?>>
                         <a href="index.php">Home</a></li>
-                    <li>
+                    <li<?php if ($thisPage=="about") echo " id=\"currentpage\""; ?>>
                         <a href="about.php">About</a></li>
-                    <li>
+                    <li<?php if ($thisPage=="faq") echo " id=\"currentpage\""; ?>>
                         <a href="faq.php">FAQ</a></li>
-                    <li id="currentpage">
+                    <li<?php if ($thisPage=="contact") echo " id=\"currentpage\""; ?>>
                         <a href="contact.php">Contact Kristen</a></li>
-                    <li>
+                    <li<?php if ($thisPage=="goals") echo " id=\"currentpage\""; ?>>
                         <a href="goals.php">My Goals</a></li>
-                    <li>
+                    <li<?php if ($thisPage=="login") echo " id=\"currentpage\""; ?>>
                         <a href="login.php">Log in/Sign up</a></li>
                 </ul>
+                <span id="spacer">I</span>
             </div>
         </div>
