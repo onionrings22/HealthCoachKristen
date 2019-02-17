@@ -10,6 +10,7 @@
                 <img id="logo" src="img/Snoot.jpg" height="100">
             </div>
             <div id="navigation">
+                <span id="spacer">I'm invisible!</span>
                 <ul>
                     <li<?php if ($thisPage=="home") echo " id=\"currentpage\""; ?>>
                         <a href="index.php">Home</a></li>

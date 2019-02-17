@@ -1,5 +1,5 @@
 <?php
-$thisPage = "home";
+$thisPage = "about";
 include_once("header.php");
 ?>
 <h1>About Coach Kristen</h1>

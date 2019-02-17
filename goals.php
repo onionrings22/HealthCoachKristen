@@ -3,7 +3,7 @@ $thisPage = "goals";
 include_once("header.php");
 ?>
 <h1>My Goals</h1>
-<ul>
+<ul id="goals">
     <li>Get a strict pull up</li>
     <li>Run the mile in under 10 minutes</li>
 </ul>
