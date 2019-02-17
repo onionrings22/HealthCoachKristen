@@ -2,12 +2,13 @@
     <header>
         <title>HCK - <?php echo $thisPage; ?></title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="hck.ico">
     </header>
     <body>
         <div id="title-bar">
             <div id="site-title">
                 <a href="index.php" id="title-link">Health Coach Kristen</a>
-                <img id="logo" src="img/Snoot.jpg" height="100">
+                <img id="logo" src="img/snoot.jpg" height="100">
             </div>
             <div id="navigation">
                 <ul>

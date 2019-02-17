@@ -3,9 +3,20 @@
     margin: 0;
     padding: 0;
 }
-
+#COLOR {
+    COLOR: #D5F4E6;
+    color: #80ced6;
+    color: #fefbd8;
+    color: #618685;
+    color: #f7ddd4;
+    color: #448d76;
+    color: #14b884;
+    color: #034f84;
+    color: #f7caC9;
+    color: #f7786b;
+}
 #navigation li {
-    background: #f7786b;
+    background: #80ced6;
     border-left: 1px solid #999;
     float: left;
     margin: 0;
@@ -13,7 +24,7 @@
 }
 
 #navigation a {
-    color: #92a8d1;
+    color: #14b884;
     font-weight: bold;
     padding: 5px 10px;
     text-decoration: none;
@@ -24,7 +35,7 @@
 }
 
 #navigation #currentpage a {
-    background: #f7cac9;
+    background: #fefbd8;
     color: #034f84;
 }
 
@@ -33,7 +44,10 @@
     height: 100px;
     line-height: 100px;
     color: #034f84;
-    background-color: #f7cac9;
+    background-color: #fefbd8;
+}
+#title-link:visited {
+    color: #034f84;
 }
 
 #title-link {
@@ -60,17 +74,33 @@
     visibility: hidden;
 }
 
+#login-div {
+    margin: auto;
+}
+
+.bottom-img {
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
 .img-right {
     height: 100px;
     float: right;
+    margin: 0 0 0 10px;
+}
+
+.img-left {
+    height: 100px;
+    float: left;
+    margin: 0 10px 0 0;
 }
 
 .question {
-    color: #034f84;
+    color: #1500ff;
 }
 
 .answer {
-    color: #f7786b;
+    color: #028200;
     margin-bottom: 10px;
 }
 
@@ -78,21 +108,26 @@
     list-style: none;
 }
 
-.div-500 {
-    width: 500px;
-    margin: auto;
-}
-
 body {
     min-height: 95%;
 }
 
-h1, li, p, form {
+h1, form {
     text-align: center;
     margin: auto;
 }
 
-p {
+p, div {
     max-width: 500px;
+    text-align: left;
+    line-height: 18px;
+    margin: 20px auto 0 auto;
+}
+
+table, td {
+    border: black solid 1px;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
 }
 
