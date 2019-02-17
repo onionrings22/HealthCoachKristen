@@ -5,10 +5,12 @@
     </header>
     <body>
         <div id="title-bar">
-            <div id="site-title">
-                Health Coach Kristen
-                <img id="logo" src="img/Snoot.jpg" height="100">
-            </div>
+            <a href="index.php">
+                <div id="site-title">
+                    Health Coach Kristen
+                    <img id="logo" src="img/Snoot.jpg" height="100">
+                </div>
+            </a>
             <div id="navigation">
                 <ul>
                     <li<?php if ($thisPage=="home") echo " id=\"currentpage\""; ?>>
