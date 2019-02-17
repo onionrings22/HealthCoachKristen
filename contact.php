@@ -7,9 +7,9 @@ include_once("header.php");
     If you have general questions, please check the <a href="faq.php">FAQ</a>.
     For personal inquiries, you can email or call using the information below.
 </p>
-<ul>
+<ul class="no-bullets">
     <li><b>email:</b> <a href="mailto:kslmom@gmail.com">kslmom@gmail.com</a></li>
-    <li><b>cell phone:</b> <a href="tel:+1545142149">541-514-2149</a> </li>
+    <li><b>cell phone:</b> <a href="tel:+1545142149">(541) 514-2149</a> </li>
 </ul>
 <?php
 include_once ("footer.html");
