@@ -9,7 +9,7 @@ include_once("header.php");
     <div><input type="submit" value="Log in"></div>
 </form>
 <p>
-    Not signed up? <a>Register now!</a>
+    Not signed up? <a href="login.php">Register now!</a>
 </p>
 <?php
 include_once ("footer.html");

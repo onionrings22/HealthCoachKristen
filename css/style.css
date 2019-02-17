@@ -87,7 +87,7 @@ body {
     min-height: 95%;
 }
 
-h1, li, p {
+h1, li, p, form {
     text-align: center;
     margin: auto;
 }
