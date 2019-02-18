@@ -5,8 +5,8 @@ include_once("header.php");
 <h1>Meet Coach Kristen</h1>
 <p>
     <img src="img/profile.JPG" class="img-right">
-    Kristen is a really good health coach. Her clients think she's great.
-    She has all kinds of training and she's in perfect shape. I need this
+    I am a really good health coach. My clients think I'm great.
+    I have all kinds of training and I'm in perfect shape. I need this
     to be long so I can see how the text behaves with the image inline. Words
     make it longer, so I'm going to put lots and lots of words and then
     some more words until eventually I see if this is going to work or not.
@@ -17,7 +17,7 @@ include_once("header.php");
 <p>
 <p>
 <div>
-    <a href="http://www.google.com"><img src="img/ace-cert.png" height="50"></a>
+    <a href="https://www.acefitness.org/fitness-certifications/health-coach-certification/default.aspx"><img src="img/ace-cert.png" height="50"></a>
 </div>
 <p>
     I am an American Council on Exercise (ACE) Certified Health Coach.
@@ -27,7 +27,7 @@ include_once("header.php");
     registered dietitians, and many other health professions.
 </p>
 <div>
-    <a href="http://www.google.com"><img src="img/crossfit.png" height="50"></a>
+    <a href="https://certifications.crossfit.com/"><img src="img/crossfit.png" height="50"></a>
 </div>
 <p>
     I am also a Level 2 Certified CrossFit coach and a CrossFit Mobility and

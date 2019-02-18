@@ -3,18 +3,7 @@
     margin: 0;
     padding: 0;
 }
-#COLOR {
-    COLOR: #D5F4E6;
-    color: #80ced6;
-    color: #fefbd8;
-    color: #618685;
-    color: #f7ddd4;
-    color: #448d76;
-    color: #14b884;
-    color: #034f84;
-    color: #f7caC9;
-    color: #f7786b;
-}
+
 #navigation li {
     background: #fdff9e;
     border-left: 1px solid #999;
