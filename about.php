@@ -14,8 +14,6 @@ include_once("header.php");
     to make sure that I have enough words to get below the picture.
 </p>
 <h1>Certifications</h1>
-<p>
-<p>
 <div>
     <a href="https://www.acefitness.org/fitness-certifications/health-coach-certification/default.aspx"><img src="img/ace-cert.png" height="50"></a>
 </div>
