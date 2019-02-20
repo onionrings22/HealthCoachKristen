@@ -11,7 +11,7 @@ include_once("header.php");
     make it longer, so I'm going to put lots and lots of words and then
     some more words until eventually I see if this is going to work or not.
     I'm not sure exactly how many words I need so I'm going to keep going
-    to make sure that I have enough words to get below the picture.<hr>
+    to make sure that I have enough words to get below the picture.
 </p>
 <h1>Certifications</h1>
 <p>
