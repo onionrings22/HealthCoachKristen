@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
     <head>
         <title>HCK - <?php echo $thisPage; ?></title>
@@ -20,10 +23,15 @@
                         <a href="faq.php">FAQ</a></li>
                     <li<?php if ($thisPage=="contact") echo " id=\"currentpage\""; ?>>
                         <a href="contact.php">Contact Kristen</a></li>
-                    <li<?php if ($thisPage=="goals") echo " id=\"currentpage\""; ?>>
-                        <a href="goals.php">My Goals</a></li>
-                    <li<?php if ($thisPage=="login") echo " id=\"currentpage\""; ?>>
-                        <a href="login.php">Log in/Sign up</a></li>
+
+                    <?php if(isset($_SESSION["user"])) {
+                        echo '<li'; if ($thisPage=="goals") {echo " id='currentpage'";}
+                            echo'><a href="goals.php">My Goals</a></li>';
+                        echo "<li><a href='logout.php'>Log out</a></li>";
+                    } else {
+                    echo'<li'; if ($thisPage=="login") {echo " id=\"currentpage\"";}
+                    echo'><a href="login.php">Log in</a></li>';
+                    }?>
                 </ul>
                 <span id="spacer">I</span>
             </div>

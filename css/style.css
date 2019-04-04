@@ -60,7 +60,7 @@
     float: right;
 }
 
-#goals > li {
+.goals > li {
     text-align: left;
     max-width: 300px;
 }
