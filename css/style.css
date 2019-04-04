@@ -59,6 +59,9 @@
 #logo {
     float: right;
 }
+.error {
+    color: red;
+}
 
 .goals > li {
     text-align: left;

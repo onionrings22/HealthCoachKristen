@@ -39,4 +39,13 @@ class Dao {
         $q->execute();
         return $q->fetchAll();
     }
+
+    public function addGoal($username, $goal_text) {
+        $conn = $this->getConnection();
+        $getQuery = "insert into goal (goal_text,complete,user_id) values(:text,0,:user)";
+        $q = $conn->prepare($getQuery);
+        $q->bindParam(":text", $goal_text);
+        $q->bindParam(":user",$username);
+        $q->execute();
+    }
 }

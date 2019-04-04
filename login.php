@@ -5,6 +5,7 @@ include_once("header.php");
 <h1>Log in</h1>
 
 <form id="login-div" action="login_handler.php" method="post">
+    <?php if (isset($_SESSION["username"])) echo '<div class="error">Username or password was incorrect</div>';?>
     <div>Username: <input type="text" name="username" value="<?php if (isset($_SESSION["username"])) echo $_SESSION["username"]; ?>"></div>
     <div>Password: <input type="password" name="password"></div>
     <div><input type="submit" value="Log in"></div>

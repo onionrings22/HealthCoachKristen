@@ -21,6 +21,13 @@ $completed = $dao->getGoalsC($_SESSION["user"]["username"]);
         }
         ?>
     </ul>
+    <form action="goal_handler.php" method="post">
+        <?php if (isset($_SESSION["goal"])) {
+            echo '<div class="error">Error: Goal must be at least 5 characters and only letters, numbers, and basic punctuation</div>';
+        }?>
+        <input type="text" name="text" value="<?php if(isset($_SESSION["goal"])) echo $_SESSION["goal"]; ?>"/>
+        <input type="submit" value="Add goal"/>
+    </form>
 </div>
 <?php
 if ($completed) {
